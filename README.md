@@ -177,7 +177,7 @@ class GreetingsController {
 
 _in case someone is curious, rerunning the test now, should result in a 500 Server Error which leads to a `HttpClientResponseException`_
 
-**Micronaut encurages everyone to code with the reactive pattern in mind, but we won't do that in this article - sorry 🙏**
+**Micronaut encourages everyone to code with the reactive pattern in mind, but we won't do that in this article - sorry 🙏**
 
 ### Making the test green
 Like in spring we just need to return a PoJo and Jackson will take care of the serialisation
